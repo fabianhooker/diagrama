@@ -1,0 +1,120 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" version="26.1.2">
+  <diagram name="Página-1" id="Q23V5PgTzqkQusmR3ppg">
+    <mxGraphModel dx="2442" dy="1252" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2k5BZR3DYDmmBKU9DnCx-13" value="&lt;font style=&quot;font-size: 23px;&quot;&gt;Diagrama entidad relación&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1085" y="30" width="435" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2k5BZR3DYDmmBKU9DnCx-14" value="&lt;p data-pm-slice=&quot;1 1 [&amp;quot;ordered_list&amp;quot;,{&amp;quot;spread&amp;quot;:true,&amp;quot;startingNumber&amp;quot;:1,&amp;quot;start&amp;quot;:1657,&amp;quot;end&amp;quot;:3684},&amp;quot;regular_list_item&amp;quot;,{&amp;quot;start&amp;quot;:1657,&amp;quot;end&amp;quot;:1870}]&quot;&gt;&lt;strong&gt;Usuarios&lt;/strong&gt;&lt;/p&gt;" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="710" y="100" width="165" height="340" as="geometry" />
+        </mxCell>
+        <mxCell id="2k5BZR3DYDmmBKU9DnCx-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="2k5BZR3DYDmmBKU9DnCx-14" source="2k5BZR3DYDmmBKU9DnCx-17">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="270" y="100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2k5BZR3DYDmmBKU9DnCx-17" value="&lt;ul data-pm-slice=&quot;3 3 [&amp;quot;ordered_list&amp;quot;,{&amp;quot;spread&amp;quot;:true,&amp;quot;startingNumber&amp;quot;:1,&amp;quot;start&amp;quot;:1657,&amp;quot;end&amp;quot;:3684},&amp;quot;regular_list_item&amp;quot;,{&amp;quot;start&amp;quot;:1657,&amp;quot;end&amp;quot;:1870}]&quot; data-spread=&quot;false&quot;&gt;&lt;li&gt;&lt;p&gt;ID_Usuario (PK)&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;Nombre&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;Apellido&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;DNI&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;Teléfono&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;Email&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;Dirección&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;Ubigeo&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;Contraseña&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;Estado&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;ID_Perfil (FK)&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="2k5BZR3DYDmmBKU9DnCx-14">
+          <mxGeometry x="13" y="30" width="150" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="2k5BZR3DYDmmBKU9DnCx-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.047;entryY=0.998;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="2k5BZR3DYDmmBKU9DnCx-14" source="2k5BZR3DYDmmBKU9DnCx-17" target="2k5BZR3DYDmmBKU9DnCx-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2k5BZR3DYDmmBKU9DnCx-18" value="&lt;p data-pm-slice=&quot;1 1 [&amp;quot;ordered_list&amp;quot;,{&amp;quot;spread&amp;quot;:true,&amp;quot;startingNumber&amp;quot;:1,&amp;quot;start&amp;quot;:1657,&amp;quot;end&amp;quot;:3684},&amp;quot;regular_list_item&amp;quot;,{&amp;quot;start&amp;quot;:1872,&amp;quot;end&amp;quot;:2020}]&quot;&gt;&lt;strong&gt;Perfiles&lt;/strong&gt;&lt;/p&gt;" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="360" width="390" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="2k5BZR3DYDmmBKU9DnCx-28" value="&lt;ul data-pm-slice=&quot;3 3 [&amp;quot;ordered_list&amp;quot;,{&amp;quot;spread&amp;quot;:true,&amp;quot;startingNumber&amp;quot;:1,&amp;quot;start&amp;quot;:1657,&amp;quot;end&amp;quot;:3684},&amp;quot;regular_list_item&amp;quot;,{&amp;quot;start&amp;quot;:1872,&amp;quot;end&amp;quot;:2020}]&quot; data-spread=&quot;false&quot;&gt;&lt;li&gt;&lt;p&gt;ID_Perfil (PK)&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;Nombre_Perfil (Administrador, Cliente, Bibliotecario, etc.)&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;Descripción&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="2k5BZR3DYDmmBKU9DnCx-18">
+          <mxGeometry y="30" width="370" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="2k5BZR3DYDmmBKU9DnCx-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="2k5BZR3DYDmmBKU9DnCx-20" target="2k5BZR3DYDmmBKU9DnCx-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2k5BZR3DYDmmBKU9DnCx-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2k5BZR3DYDmmBKU9DnCx-20" target="2k5BZR3DYDmmBKU9DnCx-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2k5BZR3DYDmmBKU9DnCx-20" value="&lt;p data-pm-slice=&quot;1 1 [&amp;quot;ordered_list&amp;quot;,{&amp;quot;spread&amp;quot;:true,&amp;quot;startingNumber&amp;quot;:1,&amp;quot;start&amp;quot;:1657,&amp;quot;end&amp;quot;:3684},&amp;quot;regular_list_item&amp;quot;,{&amp;quot;start&amp;quot;:2022,&amp;quot;end&amp;quot;:2202}]&quot;&gt;&lt;strong&gt;Libros&lt;/strong&gt;&lt;/p&gt;" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1510" y="480" width="170" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="2k5BZR3DYDmmBKU9DnCx-27" value="&lt;ul data-pm-slice=&quot;3 3 [&amp;quot;ordered_list&amp;quot;,{&amp;quot;spread&amp;quot;:true,&amp;quot;startingNumber&amp;quot;:1,&amp;quot;start&amp;quot;:1657,&amp;quot;end&amp;quot;:3684},&amp;quot;regular_list_item&amp;quot;,{&amp;quot;start&amp;quot;:2022,&amp;quot;end&amp;quot;:2202}]&quot; data-spread=&quot;false&quot;&gt;&lt;li&gt;&lt;p&gt;ID_Libro (PK)&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;Título&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;Autor&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;Categoría&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;Editorial&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;Año Publicación&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;ISBN&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;Precio Venta&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;Estado&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="2k5BZR3DYDmmBKU9DnCx-20">
+          <mxGeometry y="37" width="150" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="2k5BZR3DYDmmBKU9DnCx-22" value="&lt;p data-pm-slice=&quot;1 1 [&amp;quot;ordered_list&amp;quot;,{&amp;quot;spread&amp;quot;:true,&amp;quot;startingNumber&amp;quot;:1,&amp;quot;start&amp;quot;:1657,&amp;quot;end&amp;quot;:3684},&amp;quot;regular_list_item&amp;quot;,{&amp;quot;start&amp;quot;:2204,&amp;quot;end&amp;quot;:2363}]&quot;&gt;&lt;strong&gt;Ejemplares&lt;/strong&gt;&lt;/p&gt;" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1480" y="90" width="350" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="2k5BZR3DYDmmBKU9DnCx-26" value="&lt;ul data-pm-slice=&quot;3 3 [&amp;quot;ordered_list&amp;quot;,{&amp;quot;spread&amp;quot;:true,&amp;quot;startingNumber&amp;quot;:1,&amp;quot;start&amp;quot;:1657,&amp;quot;end&amp;quot;:3684},&amp;quot;regular_list_item&amp;quot;,{&amp;quot;start&amp;quot;:2204,&amp;quot;end&amp;quot;:2363}]&quot; data-spread=&quot;false&quot;&gt;&lt;li&gt;&lt;p&gt;ID_Ejemplar (PK)&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;ID_Libro (FK)&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;Código_Barras_QR&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;Estado (Disponible, Prestado, Dañado, Perdido)&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="2k5BZR3DYDmmBKU9DnCx-22">
+          <mxGeometry x="10" y="30" width="320" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="2k5BZR3DYDmmBKU9DnCx-24" value="&lt;p data-pm-slice=&quot;1 1 [&amp;quot;ordered_list&amp;quot;,{&amp;quot;spread&amp;quot;:true,&amp;quot;startingNumber&amp;quot;:1,&amp;quot;start&amp;quot;:1657,&amp;quot;end&amp;quot;:3684},&amp;quot;regular_list_item&amp;quot;,{&amp;quot;start&amp;quot;:2365,&amp;quot;end&amp;quot;:2507}]&quot;&gt;&lt;strong&gt;Inventario&lt;/strong&gt;&lt;/p&gt;" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1950" y="80" width="310" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="2k5BZR3DYDmmBKU9DnCx-29" value="&lt;ul data-pm-slice=&quot;3 3 [&amp;quot;ordered_list&amp;quot;,{&amp;quot;spread&amp;quot;:true,&amp;quot;startingNumber&amp;quot;:1,&amp;quot;start&amp;quot;:1657,&amp;quot;end&amp;quot;:3684},&amp;quot;regular_list_item&amp;quot;,{&amp;quot;start&amp;quot;:2365,&amp;quot;end&amp;quot;:2507}]&quot; data-spread=&quot;false&quot;&gt;&lt;li&gt;&lt;p&gt;ID_Inventario (PK)&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;ID_Ejemplar (FK)&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;Ubicación (Estante, Fila, Columna)&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;Estado&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="2k5BZR3DYDmmBKU9DnCx-24">
+          <mxGeometry x="30" y="25" width="250" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="2k5BZR3DYDmmBKU9DnCx-30" value="&lt;p data-pm-slice=&quot;1 1 [&amp;quot;ordered_list&amp;quot;,{&amp;quot;spread&amp;quot;:true,&amp;quot;startingNumber&amp;quot;:1,&amp;quot;start&amp;quot;:1657,&amp;quot;end&amp;quot;:3684},&amp;quot;regular_list_item&amp;quot;,{&amp;quot;start&amp;quot;:2509,&amp;quot;end&amp;quot;:2717}]&quot;&gt;&lt;strong&gt;Alquileres&lt;/strong&gt;&lt;/p&gt;" style="swimlane;whiteSpace=wrap;html=1;startSize=23;" vertex="1" parent="1">
+          <mxGeometry x="660" y="930" width="315" height="225" as="geometry" />
+        </mxCell>
+        <mxCell id="2k5BZR3DYDmmBKU9DnCx-32" value="&lt;ul data-pm-slice=&quot;3 3 [&amp;quot;ordered_list&amp;quot;,{&amp;quot;spread&amp;quot;:true,&amp;quot;startingNumber&amp;quot;:1,&amp;quot;start&amp;quot;:1657,&amp;quot;end&amp;quot;:3684},&amp;quot;regular_list_item&amp;quot;,{&amp;quot;start&amp;quot;:2509,&amp;quot;end&amp;quot;:2717}]&quot; data-spread=&quot;false&quot;&gt;&lt;li&gt;&lt;p&gt;ID_Alquiler (PK)&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;ID_Usuario (FK)&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;ID_Libro (FK)&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;Fecha_Alquiler&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;Fecha_Devolución&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;Estado (Pendiente, Devuelto, Retrasado)&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;Penalidad (Si aplica)&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="2k5BZR3DYDmmBKU9DnCx-30">
+          <mxGeometry x="17.5" y="15" width="280" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="2k5BZR3DYDmmBKU9DnCx-33" value="&lt;p data-pm-slice=&quot;1 1 [&amp;quot;ordered_list&amp;quot;,{&amp;quot;spread&amp;quot;:true,&amp;quot;startingNumber&amp;quot;:1,&amp;quot;start&amp;quot;:1657,&amp;quot;end&amp;quot;:3684},&amp;quot;regular_list_item&amp;quot;,{&amp;quot;start&amp;quot;:2719,&amp;quot;end&amp;quot;:2886}]&quot;&gt;&lt;strong&gt;Ventas&lt;/strong&gt;&lt;/p&gt;" style="swimlane;whiteSpace=wrap;html=1;startSize=23;" vertex="1" parent="1">
+          <mxGeometry x="360" y="610" width="335" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="2k5BZR3DYDmmBKU9DnCx-35" value="&lt;ul data-pm-slice=&quot;3 3 [&amp;quot;ordered_list&amp;quot;,{&amp;quot;spread&amp;quot;:true,&amp;quot;startingNumber&amp;quot;:1,&amp;quot;start&amp;quot;:1657,&amp;quot;end&amp;quot;:3684},&amp;quot;regular_list_item&amp;quot;,{&amp;quot;start&amp;quot;:2719,&amp;quot;end&amp;quot;:2886}]&quot; data-spread=&quot;false&quot;&gt;&lt;li&gt;&lt;p&gt;ID_Venta (PK)&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;ID_Usuario (FK)&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;ID_Libro (FK&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;Fecha_Venta&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;Total&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;Medio_Pago (Yape, Visa, Transferencia, Efectivo)&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="2k5BZR3DYDmmBKU9DnCx-33">
+          <mxGeometry x="-10" y="20" width="330" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="2k5BZR3DYDmmBKU9DnCx-36" value="&lt;p data-pm-slice=&quot;1 1 [&amp;quot;ordered_list&amp;quot;,{&amp;quot;spread&amp;quot;:true,&amp;quot;startingNumber&amp;quot;:1,&amp;quot;start&amp;quot;:1657,&amp;quot;end&amp;quot;:3684},&amp;quot;regular_list_item&amp;quot;,{&amp;quot;start&amp;quot;:2888,&amp;quot;end&amp;quot;:3052}]&quot;&gt;&lt;strong&gt;Reservas&lt;/strong&gt;&lt;/p&gt;" style="swimlane;whiteSpace=wrap;html=1;startSize=23;" vertex="1" parent="1">
+          <mxGeometry x="1140" y="940" width="335" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="2k5BZR3DYDmmBKU9DnCx-38" value="&lt;ul data-pm-slice=&quot;3 3 [&amp;quot;ordered_list&amp;quot;,{&amp;quot;spread&amp;quot;:true,&amp;quot;startingNumber&amp;quot;:1,&amp;quot;start&amp;quot;:1657,&amp;quot;end&amp;quot;:3684},&amp;quot;regular_list_item&amp;quot;,{&amp;quot;start&amp;quot;:2888,&amp;quot;end&amp;quot;:3052}]&quot; data-spread=&quot;false&quot;&gt;&lt;li&gt;&lt;p&gt;ID_Reserva (PK)&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;ID_Usuario (FK)&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;ID_Libro (FK)&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;Fecha_Solicitud&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;Estado (Pendiente, Aprobado, Rechazado)&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="2k5BZR3DYDmmBKU9DnCx-36">
+          <mxGeometry x="20" y="40" width="290" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="2k5BZR3DYDmmBKU9DnCx-39" value="&lt;p data-pm-slice=&quot;1 1 [&amp;quot;ordered_list&amp;quot;,{&amp;quot;spread&amp;quot;:true,&amp;quot;startingNumber&amp;quot;:1,&amp;quot;start&amp;quot;:1657,&amp;quot;end&amp;quot;:3684},&amp;quot;regular_list_item&amp;quot;,{&amp;quot;start&amp;quot;:3054,&amp;quot;end&amp;quot;:3208}]&quot;&gt;&lt;strong&gt;Pagos&lt;/strong&gt;&lt;/p&gt;" style="swimlane;whiteSpace=wrap;html=1;startSize=23;" vertex="1" parent="1">
+          <mxGeometry x="50" y="910" width="335" height="225" as="geometry" />
+        </mxCell>
+        <mxCell id="2k5BZR3DYDmmBKU9DnCx-41" value="&lt;ul data-pm-slice=&quot;3 3 [&amp;quot;ordered_list&amp;quot;,{&amp;quot;spread&amp;quot;:true,&amp;quot;startingNumber&amp;quot;:1,&amp;quot;start&amp;quot;:1657,&amp;quot;end&amp;quot;:3684},&amp;quot;regular_list_item&amp;quot;,{&amp;quot;start&amp;quot;:3054,&amp;quot;end&amp;quot;:3208}]&quot; data-spread=&quot;false&quot;&gt;&lt;li&gt;&lt;p&gt;ID_Pago (PK)&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;ID_Usuario (FK)&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;ID_Libro (FK)&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;ID_Venta / ID_Alquiler (FK)&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;Medio_Pago&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;Monto&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;Fecha_Pago&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="2k5BZR3DYDmmBKU9DnCx-39">
+          <mxGeometry x="50" y="15" width="210" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="2k5BZR3DYDmmBKU9DnCx-42" value="&lt;p data-pm-slice=&quot;1 1 [&amp;quot;ordered_list&amp;quot;,{&amp;quot;spread&amp;quot;:true,&amp;quot;startingNumber&amp;quot;:1,&amp;quot;start&amp;quot;:1657,&amp;quot;end&amp;quot;:3684},&amp;quot;regular_list_item&amp;quot;,{&amp;quot;start&amp;quot;:3339,&amp;quot;end&amp;quot;:3484}]&quot;&gt;&lt;strong&gt;Auditoría&lt;/strong&gt;&lt;/p&gt;" style="swimlane;whiteSpace=wrap;html=1;startSize=23;" vertex="1" parent="1">
+          <mxGeometry x="980" y="375" width="335" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="2k5BZR3DYDmmBKU9DnCx-47" value="&lt;ul data-pm-slice=&quot;3 3 [&amp;quot;ordered_list&amp;quot;,{&amp;quot;spread&amp;quot;:true,&amp;quot;startingNumber&amp;quot;:1,&amp;quot;start&amp;quot;:1657,&amp;quot;end&amp;quot;:3684},&amp;quot;regular_list_item&amp;quot;,{&amp;quot;start&amp;quot;:3339,&amp;quot;end&amp;quot;:3484}]&quot; data-spread=&quot;false&quot;&gt;&lt;li&gt;&lt;p&gt;ID_Auditoria (PK)&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;ID_Usuario (FK)&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;Acción&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;Fecha_Hora&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;Descripción&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="2k5BZR3DYDmmBKU9DnCx-42">
+          <mxGeometry x="80" y="40" width="160" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="2k5BZR3DYDmmBKU9DnCx-44" value="&lt;p data-pm-slice=&quot;1 1 [&amp;quot;ordered_list&amp;quot;,{&amp;quot;spread&amp;quot;:true,&amp;quot;startingNumber&amp;quot;:1,&amp;quot;start&amp;quot;:1657,&amp;quot;end&amp;quot;:3684},&amp;quot;regular_list_item&amp;quot;,{&amp;quot;start&amp;quot;:3486,&amp;quot;end&amp;quot;:3684}]&quot;&gt;&lt;strong&gt;Notificaciones&lt;/strong&gt;&lt;/p&gt;" style="swimlane;whiteSpace=wrap;html=1;startSize=23;" vertex="1" parent="1">
+          <mxGeometry x="980" y="110" width="335" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="2k5BZR3DYDmmBKU9DnCx-46" value="&lt;ul data-pm-slice=&quot;3 3 [&amp;quot;ordered_list&amp;quot;,{&amp;quot;spread&amp;quot;:true,&amp;quot;startingNumber&amp;quot;:1,&amp;quot;start&amp;quot;:1657,&amp;quot;end&amp;quot;:3684},&amp;quot;regular_list_item&amp;quot;,{&amp;quot;start&amp;quot;:3486,&amp;quot;end&amp;quot;:3684}]&quot; data-spread=&quot;false&quot;&gt;&lt;li&gt;&lt;p&gt;ID_Notificación (PK)&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;ID_Usuario (FK)&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;Tipo (Push, Email, SMS)&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;Mensaje&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;Fecha_Envío&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;Estado (Enviado, Pendiente)&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="2k5BZR3DYDmmBKU9DnCx-44">
+          <mxGeometry x="52.5" y="30" width="220" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="2k5BZR3DYDmmBKU9DnCx-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.024;entryY=0.923;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="2k5BZR3DYDmmBKU9DnCx-18" target="2k5BZR3DYDmmBKU9DnCx-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2k5BZR3DYDmmBKU9DnCx-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="2k5BZR3DYDmmBKU9DnCx-26" target="2k5BZR3DYDmmBKU9DnCx-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2k5BZR3DYDmmBKU9DnCx-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="2k5BZR3DYDmmBKU9DnCx-17" target="2k5BZR3DYDmmBKU9DnCx-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2k5BZR3DYDmmBKU9DnCx-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="2k5BZR3DYDmmBKU9DnCx-17" target="2k5BZR3DYDmmBKU9DnCx-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2k5BZR3DYDmmBKU9DnCx-69" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="2k5BZR3DYDmmBKU9DnCx-17" target="2k5BZR3DYDmmBKU9DnCx-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2k5BZR3DYDmmBKU9DnCx-70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="2k5BZR3DYDmmBKU9DnCx-17" target="2k5BZR3DYDmmBKU9DnCx-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2k5BZR3DYDmmBKU9DnCx-71" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.699;entryY=0.013;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="2k5BZR3DYDmmBKU9DnCx-17" target="2k5BZR3DYDmmBKU9DnCx-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2k5BZR3DYDmmBKU9DnCx-76" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="2k5BZR3DYDmmBKU9DnCx-35" target="2k5BZR3DYDmmBKU9DnCx-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2k5BZR3DYDmmBKU9DnCx-77" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="2k5BZR3DYDmmBKU9DnCx-32" target="2k5BZR3DYDmmBKU9DnCx-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
